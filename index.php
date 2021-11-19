@@ -1,5 +1,8 @@
 <?php
 include 'setting.php';
+if(!is_dir('files')){
+    mkdir('files');
+}
 
 $result = $db->query("SELECT * FROM Goods", MYSQLI_USE_RESULT);
 
