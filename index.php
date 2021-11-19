@@ -139,7 +139,7 @@ if (!$result) {
                                 <hr>
                                 <div class="d-flex justify-content-between">
                                     <button class="btn btn-sm btn-primary" onclick="updateGood(this, ${json.query.id})">Обновить элемент</button>
-                                    <button onclick="removeGood(${json.query.id})">Удалить элемент</button>
+                                    <button class="btn btn-sm btn-secondary" onclick="removeGood(${json.query.id})">Удалить элемент</button>
                                 </div>
                             </li>
                         `
